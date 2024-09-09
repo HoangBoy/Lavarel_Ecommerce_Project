@@ -1,0 +1,30 @@
+/* General styling for the navbar */
+.navbar {
+    background-color: #f8f9fa;
+    padding: 10px;
+}
+
+.nav {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-item {
+    margin-right: 15px; /* Space between items */
+}
+
+/* Styling for the cart link specifically */
+.nav-item-cart {
+    margin-left: auto; /* Push the Cart item to the far right */
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #007bff; /* Color for links */
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
